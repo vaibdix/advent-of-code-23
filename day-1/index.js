@@ -13,5 +13,5 @@ function partOne(file) {
         return values.reduce((s,v) => s + v)
 }
 
-console.log(partOne('./example.txt'))
+console.log(partOne('./input.txt'))
 
