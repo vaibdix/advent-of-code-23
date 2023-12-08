@@ -47,3 +47,6 @@ function solve1(input) {
     console.log(sum);
   }
   solve1(input);
+
+
+  
