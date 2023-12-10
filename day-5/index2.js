@@ -1,3 +1,7 @@
+import { readFileSync } from 'fs';
+
+const input = readFileSync('input.txt', 'utf8').trimEnd();
+
 function solve2(input) {
     let [seeds, ...maps] = input.split('\n\n');
     seeds = seeds.match(/\d+/g).map(Number);
