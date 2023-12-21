@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 
 import { Heap } from 'heap-js';
 
-const input = readFileSync('./day-17-input.txt', 'utf8').trimEnd();
+const input = readFileSync('input.txt', 'utf8').trimEnd();
 
 const DIR = {
   U: [-1, 0],
